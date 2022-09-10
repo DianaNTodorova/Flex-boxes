@@ -1,0 +1,80 @@
+.flex_box-1 {
+  display: flex;
+  max-width: 273px;
+  width: 100%;
+  min-height: 220px;
+  background-color: #03071e;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.box-1-element-1,
+.box-1-element-2,
+.box-1-element-3,
+.box-1-element-4,
+.box-1-element-5 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #748cab;
+  margin: 10px;
+}
+.box-1-element-4,
+.box-1-element-5 {
+  margin-top: -60px;
+}
+.flex_box-2 {
+  display: flex;
+  max-width: 273px;
+  width: 100%;
+  min-height: 220px;
+  background-color: #6a040f;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.box-2-element-1,
+.box-2-element-2,
+.box-2-element-3,
+.box-2-element-4,
+.box-2-element-5,
+.box-2-element-6 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #748cab;
+  margin: 10px;
+}
+.flex_box-3 {
+  display: flex;
+  max-width: 273px;
+  width: 100%;
+  min-height: 220px;
+  background-color: #6a040f;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  margin: 20px;
+}
+
+.box-3-element-1,
+.box-3-element-2,
+.box-3-element-3,
+.box-3-element-4,
+.box-3-element-5 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #748cab;
+  margin: 10px;
+}
+.box-3-element-4,
+.box-3-element-5 {
+  margin-bottom: -60px;
+}
